@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.hzq</groupId>
+  <artifactId>data-structure-and-algorithm-java</artifactId>
+  <version>1.0.0</version>
+
+  <name>data-structure-and-algorithm-java</name>
+  <description>数据结构和算法练习-JAVA</description>
+  <url>http://maven.apache.org</url>
+
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>data-structures</module>
+    <module>algorithm</module>
+  </modules>
+
+  <properties>
+    <hzq.version>1.0.0</hzq.version>
+    <java.version>21</java.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+  </properties>
+
+  <dependencies>
+
+  </dependencies>
+</project>
