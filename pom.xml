@@ -18,13 +18,23 @@
   </modules>
 
   <properties>
+    <!-- 项目基础构建 -->
     <hzq.version>1.0.0</hzq.version>
     <java.version>21</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <!-- 工具 -->
+    <juint.version>5.11.4</juint.version>
   </properties>
 
-  <dependencies>
-
-  </dependencies>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter</artifactId>
+        <version>${juint.version}</version>
+        <scope>test</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 </project>
